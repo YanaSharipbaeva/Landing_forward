@@ -40,7 +40,7 @@ document.addEventListener ("DOMContentLoaded", function() {
         data = [].slice.call(data);
 
         data.forEach(function (item) {
-                if (item.value.length === 0) {
+                if (item.value.length === 0 || item.value.length > 10) {
                     errorMessage = 'field must not be empty';
                     createHint();
                     item.parentNode.insertBefore(span, item);
@@ -48,7 +48,7 @@ document.addEventListener ("DOMContentLoaded", function() {
 
                 if (item.id === 'phone') {
                     if (!phone.value.match(numRegExp)) {
-                        errorMessage = 'field must be numeric';
+                        errorMessage = 'field must be numeric and not empty';
                         createHint();
                         item.parentNode.insertBefore(span, item);
                     }
@@ -56,7 +56,7 @@ document.addEventListener ("DOMContentLoaded", function() {
 
                 if (item.id === 'email') {
                     if (!email.value.match(emailRegExp)) {
-                        errorMessage = "field is not correct";
+                        errorMessage = "field is not correct and not empty";
                         createHint();
                         item.parentNode.insertBefore(span, item);
                     };
