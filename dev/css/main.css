@@ -1054,7 +1054,7 @@ body {
   .navigation:before {
     display: none; } }
 
-@media (max-width: 640px) {
+@media (max-width: 730px) {
   .top-header {
     height: auto; }
   .top-header, .top-header-infoWrapper, .top-header_mail {
@@ -1086,3 +1086,7 @@ body {
     float: none;
     margin: 0 auto;
     text-align: center; } }
+
+@media (max-width: 640px) {
+  .middle-header {
+    height: auto; } }
