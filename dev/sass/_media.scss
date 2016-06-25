@@ -1,0 +1,150 @@
+@media (max-width: 1200px)  {
+
+    .navigation, .wrapper-header, .footer-wrapper  {
+        height: auto;
+    }
+
+    .tour-text, .info-text, .comments-text, .companies-wrapper .info-text, .slider-google{
+        width: auto;
+    }
+
+    .tour-item_wrapper {
+        width: 313px;
+        margin: 0 auto;
+        padding: 0px;
+        margin-bottom: 20px;
+    }
+
+    .google_big, .google_block {
+        display: block;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .google_block {
+        border: 1px solid #c7c4c4;
+    }
+
+    .booklet-item {
+        margin-bottom: 20px;
+    }
+
+    .form-input, .input-wrapper {
+        width: 100%;
+    }
+
+    .user-info-form  {
+        text-align: center;
+    }
+
+    .user-info-form_image {
+        margin: 0 auto;
+    }
+
+    .company-item {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .container {
+        padding: 0px 15px;
+        width: 100%;
+    }
+
+    .footer-bottom {
+        text-align: center;
+    }
+
+    .social-wrapper-links {
+        float: none;
+        text-align: center;
+    }
+
+    .footer-copyright {
+        padding: 15px 0px;
+    }
+
+    .up-button {
+        top: -26px;
+    }
+
+    .item-wrapper {
+        display: block;
+    }
+
+    .slider-google .flex-direction-nav{
+        width: 80px;
+        height: 54px;
+        position: absolute;
+        left: 50%;
+        margin-left: -26px;
+    }
+
+    .user-info-form {
+        margin-left: 0px; 
+    }
+
+    .slider-container {
+        padding: 0px 60px;
+    }
+
+} 
+
+@media (max-width: 725px)  {
+    .navigation:before {
+        display: none;
+    }
+}
+
+@media (max-width: 640px)  {
+    .top-header{
+        height: auto;
+    }
+
+    .top-header, .top-header-infoWrapper, .top-header_mail {
+        display: block;
+    }
+
+    .language {
+        height: 28px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .top-header_mail {
+        text-align: center;
+    }
+
+    .top-header-infoWrapper {
+        float: none;
+    }
+    
+    .social-links {
+        display: block;
+        float: none;
+        text-align: center;
+    }
+
+    .language-triangle {
+        display: none;
+    }
+
+    .logo-block {
+        display: block;
+        float: none;
+        margin: 0 auto;
+    }
+
+    .logo-wrapper {
+        margin: 0 auto;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .phone-area {
+        display: block;
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
